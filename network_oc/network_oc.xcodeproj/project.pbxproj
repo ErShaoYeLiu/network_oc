@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA26A682259B146D001EB061 /* LTNetWorkBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA26A681259B146D001EB061 /* LTNetWorkBaseRequest.m */; };
+		AA26A688259C6401001EB061 /* LTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA26A687259C6401001EB061 /* LTModel.m */; };
 		AAE04A94259B03FC00276215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04A93259B03FC00276215 /* AppDelegate.m */; };
 		AAE04A97259B03FC00276215 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04A96259B03FC00276215 /* SceneDelegate.m */; };
 		AAE04A9A259B03FC00276215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04A99259B03FC00276215 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA26A680259B146D001EB061 /* LTNetWorkBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTNetWorkBaseRequest.h; sourceTree = "<group>"; };
+		AA26A681259B146D001EB061 /* LTNetWorkBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTNetWorkBaseRequest.m; sourceTree = "<group>"; };
+		AA26A686259C6401001EB061 /* LTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTModel.h; sourceTree = "<group>"; };
+		AA26A687259C6401001EB061 /* LTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTModel.m; sourceTree = "<group>"; };
 		AAE04A8F259B03FC00276215 /* network_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = network_oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE04A92259B03FC00276215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAE04A93259B03FC00276215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 				AAE04AA0259B03FF00276215 /* LaunchScreen.storyboard */,
 				AAE04AA3259B03FF00276215 /* Info.plist */,
 				AAE04AA4259B03FF00276215 /* main.m */,
+				AA26A680259B146D001EB061 /* LTNetWorkBaseRequest.h */,
+				AA26A681259B146D001EB061 /* LTNetWorkBaseRequest.m */,
+				AA26A686259C6401001EB061 /* LTModel.h */,
+				AA26A687259C6401001EB061 /* LTModel.m */,
 			);
 			path = network_oc;
 			sourceTree = "<group>";
@@ -267,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE04A9A259B03FC00276215 /* ViewController.m in Sources */,
+				AA26A682259B146D001EB061 /* LTNetWorkBaseRequest.m in Sources */,
 				AAE04A94259B03FC00276215 /* AppDelegate.m in Sources */,
+				AA26A688259C6401001EB061 /* LTModel.m in Sources */,
 				AAE04AA5259B03FF00276215 /* main.m in Sources */,
 				AAE04A97259B03FC00276215 /* SceneDelegate.m in Sources */,
 			);
